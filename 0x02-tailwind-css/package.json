@@ -1,15 +1,16 @@
 {
-  "name": "0x02-tailwind-css",
+  "name": "tailwindcss-starter",
   "version": "1.0.0",
-  "main": "tailwind.config.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --watch" 
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
-    "tailwindcss": "^3.4.3"
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.7",
+    "tailwindcss": "^4.1.7"
   }
 }
