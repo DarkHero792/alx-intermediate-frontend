@@ -1,0 +1,7 @@
+# Steps to install SASS
+
+1. Installed Node.js (assumed already installed).
+2. Installed latest SASS using npm:
+   npm install sass
+3. Verified SASS version with:
+   npx sass --version
